@@ -1,0 +1,37 @@
+# Dependencies (PALING PENTING)
+/node_modules
+
+# Build outputs
+/dist
+/build
+/.next
+/out/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Aturan Lama Anda (Boleh disimpan jika masih relevan) ---
+
+# Folder Dataset (tidak diperlukan untuk menjalankan aplikasi)
+dataset/
+
+# File Python temporary
+__pycache__/
+*.pyc
+
+# Folder Virtual Environment (jika Anda menggunakannya)
+venv/
+
+# File spesifik OS
+.DS_Store
+
+# File spesifik IDE
+.vscode/
+.idea/
